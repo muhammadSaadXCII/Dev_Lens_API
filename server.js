@@ -23,7 +23,7 @@ app.post('/api/review', async (req, res) => {
             new AzureKeyCredential(token),
         );
 
-        const response = client.path("/chat/completions").post({
+        const response = await client.path("/chat/completions").post({
             body: {
                 messages: [
                     {
@@ -39,7 +39,7 @@ app.post('/api/review', async (req, res) => {
             }
         });
 
-        res.status(201).json({ review: response.body.choices[0]["message"]["content"] });
+        res.status(201).json({ review: response.body["choices"][0].message["content"] });
     } catch (error) {
         res.status(500).json({
             message: "Internal Server Error",
