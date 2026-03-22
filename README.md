@@ -1,4 +1,4 @@
-# Code Reviewer API
+# DevLens API
 
 [![Node.js Version](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-5.x-black.svg)](https://expressjs.com/)
