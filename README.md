@@ -104,7 +104,7 @@ Submits code for AI-powered review.
 ## 📂 Project Structure
 
 ```
-Code_Reviewer_API/
+Dev_Lens_API/
 ├── server.js          # Main Express server & API logic
 ├── package.json       # Project metadata & dependencies
 ├── package-lock.json  # Dependency lock file
