@@ -37,8 +37,8 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/muhammadSaadXCII/Code_Reviewer_API.git
-   cd Code_Reviewer_API
+   git clone https://github.com/muhammadSaadXCII/Dev_Lens_API.git
+   cd Dev_Lens_API
    ```
 
 2. **Install dependencies:**
